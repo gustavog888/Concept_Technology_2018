@@ -55,21 +55,6 @@
 }
 
 
-#background {
-	position: absolute;
-	height: 100%;
-	width: 100%;
-	top: 0px;
-	left: 0px;
-	z-index: -1;
-	background-image: url(../images/background1.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center 0px;
-	overflow: hidden;
-}
-
-
 #cover1 {
 	position: relative;
 	width: 100%;
@@ -79,6 +64,8 @@
 	background-size: cover;
 	background-position: center 0px;
 	background-color: blue;
+	
+
 	/*z-index: 25000;*/
 }
 
@@ -206,7 +193,7 @@
 .social-nav {
 	position:absolute;
 	top: 0px;
-	right: 50px;
+	left: 50px;
 	z-index: 2500;
 }
 
