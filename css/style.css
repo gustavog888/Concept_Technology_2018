@@ -11,6 +11,7 @@
 }
 
 .content_all {
+	position: relative;
 	width: 100%;
 	height: 100%;
 	position: absolute;
@@ -22,38 +23,6 @@
 	overflow: hidden;
 }
 
-#preloader {
-	background: rgba(153,204,255,1);
-	background: -moz-radial-gradient(center, ellipse cover, rgba(153,204,255,1) 0%, rgba(153,204,255,1) 36%, rgba(36,149,255,1) 92%, rgba(36,149,255,1) 100%);
-	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(153,204,255,1)), color-stop(36%, rgba(153,204,255,1)), color-stop(92%, rgba(36,149,255,1)), color-stop(100%, rgba(36,149,255,1)));
-	background: -webkit-radial-gradient(center, ellipse cover, rgba(153,204,255,1) 0%, rgba(153,204,255,1) 36%, rgba(36,149,255,1) 92%, rgba(36,149,255,1) 100%);
-	background: -o-radial-gradient(center, ellipse cover, rgba(153,204,255,1) 0%, rgba(153,204,255,1) 36%, rgba(36,149,255,1) 92%, rgba(36,149,255,1) 100%);
-	background: -ms-radial-gradient(center, ellipse cover, rgba(153,204,255,1) 0%, rgba(153,204,255,1) 36%, rgba(36,149,255,1) 92%, rgba(36,149,255,1) 100%);
-	background: radial-gradient(ellipse at center, rgba(153,204,255,1) 0%, rgba(153,204,255,1) 36%, rgba(36,149,255,1) 92%, rgba(36,149,255,1) 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#99ccff', endColorstr='#2495ff', GradientType=1 );
-	position: fixed;
-	width: 100%;
-	height: 100%;
-	z-index: 2000;
-}
-
-#logo_load {
-	position: relative;
-	margin: 0 auto;
-	width: 20%;
-	min-width: 250px;
-	overflow: hidden;
-	z-index: 20001;
-	position: relative;
-}
-
-#logo_load img{
-	margin-top: 30%;
-	width: 100%;
-	height: auto;
-	z-index: 20002;
-
-}
 
 #fullpage {
 	margin: 0;
@@ -114,20 +83,21 @@
 }
 
 #logo_ppal {
-	position: relative;
-	margin: 20% auto;
-	width: 10%;
+	position: absolute;
+	bottom: 30px;
+	margin-left: 2%;
+	width: 20%;
+	height: auto;
 	z-index: 20001;
 	transition: all 300ms linear;
-	border: 2px solid blue;
 
 
 }
 
 
 #logo_pp{
-	margin-top: 45%;
-	width: 200%;
+	margin-top: 0;
+	width: 100%;
 	height: auto;
 	z-index: 20002;
 }
@@ -168,7 +138,7 @@
 	margin: 0 auto;
 	font-size: 1.5em;
 	line-height: 1em;
-	color: white;
+	color: gray;
 	opacity: 0.6;
 	text-align: center;
 }
@@ -1638,7 +1608,7 @@ section#six_screen {
 
 	/*HOME*/	
 	#logo_ppal {
-		width: 20%;
+		width: 45%;
 	}
 
 	/*ABOUT*/
